@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(void){
+  int i, j, m;
+
+  printf("Tablas utilizando while\n\n");
+
+  i=1;
+  while(i<=12){
+    printf("Tabla del %d\n",i);
+    printf("------------\n");
+    j=1;
+    while(j<=12){
+      m=i*j;
+      printf("%d * %d = %d\n",i,j,m);
+      j++;
+    }
+  
+     i++;
+  
+      }
+    //break;
+  return 0;
+}
